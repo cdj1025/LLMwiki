@@ -1,0 +1,10 @@
+# Don't commit PDFs — most JC papers are copyrighted journal articles.
+# Keep them local only; only the markdown summaries in sources/ and wiki/ get committed.
+papers/*.pdf
+!papers/.gitkeep
+
+# Obsidian workspace state
+.obsidian/
+
+# Local-only Claude Code settings
+.claude/settings.local.json
